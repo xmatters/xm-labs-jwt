@@ -1,9 +1,15 @@
 # Generating JSON Web Tokens (JWT)
 [JWT](https://jwt.io) is a leading authentication mechanism for APIs due to its secure nature and easy transportability. This is a library for generating these tokens and authenticating with any APIs that require them. 
 
+--------
+
 <kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
 </kbd>
+
+--------
 
 # Pre-Requisites
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
@@ -18,7 +24,7 @@ This is just a shared library, so it will need to be added to your integration b
 # Installation
 
 ## xMatters set up
-1. Login to xMatters and open up the Integration Builder on the appropriate Comm Plan. 
+1. Login to xMatters and open up the Integration Builder on the appropriate workflow. 
 2. Expand the Shared Libraries section and click Add button. 
 3. Replace the entire contents of this script with the script in [JWT.js](JWT.js). 
 4. Change the name of the library by clicking on the **My Shared Library** at the top of the screen and replace it with **JWT**. 
